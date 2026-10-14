@@ -52,14 +52,63 @@ h1{
 }
 
 h2{
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: var(--rojo2);
+}
+
+h3{
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: var(--rojo2);
+}
+
+h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: var(--rojo2);
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card-section{
+    background-color: var(--blanco);
+    text-align: left;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-left: 5px solid var(--rojo);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.card-section ul{
+     padding-left: 25px;
+}
+
+.card-section li {
+    margin-bottom: 10px;
+}
+
+.review-box {
+    background-color: rgb(250, 242, 242);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-left: 4px solid var(--rojo);
+}
+
+.review-box p {
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 img{
    border-radius: 20px;
 }
+
 
 .pie {
     padding-top: 2rem;
