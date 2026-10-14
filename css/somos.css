@@ -1,4 +1,74 @@
 * {
+    box-sizing: border-border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --rojo: rgb(168, 27, 27);
+    --negro: rgb(31, 27, 27);
+    --gris: rgb(163, 163, 163);
+    --rojo1: rgba(82, 4, 4, 0.781);
+    --blanco: rgb(233, 219, 219);
+    --rojo2: rgb(70, 22, 22);
+}
+
+body{
+    color: var(--negro);
+    font-size: 16px;
+}
+
+.menu{
+    background-color: var(--rojo1);
+    padding: 20px;
+}
+
+.nav{
+    display:flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav a{
+    color: var(--blanco);
+    font-size: 16px;
+}
+
+main{
+    margin: 20px;
+}
+
+.content, .content-1{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: var(--rojo2);
+}
+
+h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: var(--rojo2);
+}
+
+img{
+   border-radius: 20px;
+}
+
+.pie {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    color: var(--gris);
+    font-size: 1rem;
+}
+
+* {
     box-sizing: border-box ;
     background-color: rgba(220, 215, 215, 0.961);
     font-family: fantasy, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
