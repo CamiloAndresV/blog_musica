@@ -114,13 +114,11 @@ img {
 
 .integrante img {
     /* Selecciona qué propiedades transicionar, el tiempo (0.3s) y el efecto (ease-in-out) */
-    transition: background-color 0.3s ease-in-out, 
-                box-shadow 0.3s ease-in-out, 
+    transition: box-shadow 0.3s ease-in-out, 
                 transform 0.3s ease-in-out;
 }
 
 .integrante img:hover {
-    background-color: #CC0000;
     box-shadow: 0px 0px 20px var(--rojo);
     transform: scale(1.2);
 }
