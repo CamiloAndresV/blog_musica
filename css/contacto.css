@@ -202,8 +202,8 @@ img {
 
 /* PIE DE PÁGINA (SIEMPRE PEGADO ABAJO) */
 footer {
-    background-color: var(--rojo1);
-    color: var(--blanco);
+    /* background-color: var(--rojo1); */
+    /* color: var(--blanco); */
     text-align: center;
     padding: 20px;
     margin-top: auto; /* Empuja el footer al final de la página */
@@ -213,6 +213,41 @@ footer {
 .pie {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: var(--blanco);
+    color: var(--gris);
     font-size: 1rem;
+}
+
+/* Enlace/Correo de contacto */
+.pie p:last-child { /*last-child es el último párrafo en el pie de página */
+    font-weight: bold;
+    color: var(--rojo);                  
+}
+
+.pie ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;                  /* Espacio uniforme entre elementos */
+}
+
+.pie li a {
+    font-size: 0.85rem;
+    color: var(--gris);
+    padding-right: 10px;             /* Espacio antes de la barrita */
+}
+
+.pie a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.pie a:hover {
+    color: var(--rojo);
+}
+
+.pie li:not(:last-child) {
+    border-right: 2px solid var(--rojo); /* Dibuja una barrita a la derecha */
 }
