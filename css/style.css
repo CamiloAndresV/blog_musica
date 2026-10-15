@@ -115,4 +115,40 @@ img{
     padding-bottom: 3rem;
     color: var(--gris);
     font-size: 1rem;
+    text-align: center;
+}
+
+/* Enlace/Correo de contacto */
+.pie p:last-child { /*last-child es el último párrafo en el pie de página */
+    font-weight: bold;
+    color: var(--rojo);                  
+}
+
+.pie ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;                  /* Espacio uniforme entre elementos */
+}
+
+.pie li a {
+    font-size: 0.85rem;
+    color: var(--gris);
+    padding-right: 10px;             /* Espacio antes de la barrita */
+}
+
+.pie a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.pie a:hover {
+    color: var(--rojo);
+}
+
+.pie li:not(:last-child) {
+    border-right: 2px solid var(--rojo); /* Dibuja una barrita a la derecha */
 }
